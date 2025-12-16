@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andres Ribon - Frontend Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <!-- Background Canvas -->
+    <canvas id="bg-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">Andres Ribon</div>
+            <ul class="nav-links">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Sobre mí</a></li>
+                <li><a href="#skills">Tecnologías</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container fade-in">
+            <h1>Frontend Developer</h1>
+            <p class="subtitle">Creando experiencias web excepcionales</p>
+            <p class="description">
+                Desarrollador especializado en frontend con experiencia en el sector bancario. 
+                Enfocado en crear interfaces modernas y funcionales que generen impacto.
+            </p>
+            <a href="#contact" class="cta-button">Trabajemos juntos</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content fade-in">
+                <div class="about-text">
+                    <h2>Sobre mí</h2>
+                    <p>
+                        Soy un desarrollador frontend apasionado con 1.5 años de experiencia. 
+                        Actualmente trabajo como desarrollador en el Banco de Bogotá, donde he 
+                        perfeccionado mis habilidades en crear interfaces robustas y escalables.
+                    </p>
+                    <p>
+                        Mi especialidad es el desarrollo frontend, aunque también manejo tecnologías 
+                        backend que me permiten tener una visión completa de los proyectos. 
+                        Busco nuevos desafíos en proyectos freelance remotos.
+                    </p>
+                    <div class="stats">
+                        <div class="stat">
+                            <div class="stat-number">1.5+</div>
+                            <div class="stat-label">Años de Experiencia</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">10+</div>
+                            <div class="stat-label">Proyectos Completados</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">100%</div>
+                            <div class="stat-label">Trabajo Remoto</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-imagen">
+                    <img src="recursos/inventario/Programacion.jpg" alt="proogracion">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title fade-in">Tecnologías</h2>
+            <div class="skills-grid">
+                <div class="skill-category fade-in">
+                    <h3>Frontend</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Vue.js</span>
+                        <span class="skill-tag">Angular</span>
+                        <span class="skill-tag">Sass/SCSS</span>
+                        <span class="skill-tag">Tailwind CSS</span>
+                    </div>
+                </div>
+                <div class="skill-category fade-in">
+                    <h3>Backend</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">PHP</span>
+                        <span class="skill-tag">Express.js</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">MongoDB</span>
+                    </div>
+                </div>
+                <div class="skill-category fade-in">
+                    <h3>Herramientas</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Webpack</span>
+                        <span class="skill-tag">Vite</span>
+                        <span class="skill-tag">Figma</span>
+                        <span class="skill-tag">Adobe XD</span>
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">Postman</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title fade-in">Proyectos</h2>
+            <div class="projects-grid">
+                <div class="project-card fade-in">
+                    <div class="project-image">01</div>
+                    <div class="project-content">
+                        <h3 class="project-title">Aplicación Web inventario</h3>
+                        <p class="project-description">
+                            Sistema web desarrollado durante mis estudios universitarios. 
+                            Incluye funcionalidades completas de CRUD y diseño responsive.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">SQL</span>
+                            <span class="tech-tag">REACT</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="/inventario.html" class="project-link">Ver proyecto →</a>
+                            <a href="#" class="project-link">GitHub →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in">
+                    <div class="project-image">02</div>
+                    <div class="project-content">
+                        <h3 class="project-title">Habit tracker</h3>
+                        <p class="project-description">
+                            Plataforma web desarrollada como proyecto personal para seguimiento de hábitos.
+                            Permite a los usuarios registrar y monitorear sus actividades diarias ademas 
+                            de simplificar el codigo en solo archivo.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">CSS3</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="habitTracker.html" class="project-link">Ver proyecto →</a>
+                            <a href="#" class="project-link">GitHub →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in">
+                    <div class="project-image">03</div>
+                    <div class="project-content">
+                        <h3 class="project-title">Próximo Proyecto</h3>
+                        <p class="project-description">
+                            Espacio reservado para futuros proyectos freelance. 
+                            Aquí aparecerán los trabajos más destacados.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Próximamente</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#contact" class="project-link">Contáctame →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container fade-in">
+            <h2>¿Listo para trabajar juntos?</h2>
+            <p class="contact-description">
+                Estoy disponible para proyectos freelance remotos. 
+                Si tienes una idea o proyecto en mente, ¡hablemos!
+            </p>
+            <div class="contact-links">
+                <a href="mailto:tu.email@gmail.com" class="contact-link">contact.andresribon@gmail.com</a>
+                <a href="https://www.linkedin.com/in/andresribon08" class="contact-link" target="_blank">LinkedIn</a>
+                <a href="https://github.com/contact-AndresRibon" class="contact-link" target="_blank">GitHub</a>
+                <a href="https://wa.me/57XXXXXXXXX" class="contact-link" target="_blank">WhatsApp</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script>
+        // Navegación con scroll
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 100) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Animaciones de entrada
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-in').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Three.js background
+        let scene, camera, renderer, particles;
+
+        function initThree() {
+            const canvas = document.getElementById('bg-canvas');
+            
+            scene = new THREE.Scene();
+            camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+            renderer = new THREE.WebGLRenderer({ canvas: canvas, alpha: true });
+            renderer.setSize(window.innerWidth, window.innerHeight);
+
+            // Crear partículas
+            const geometry = new THREE.BufferGeometry();
+            const particleCount = 100;
+            const positions = new Float32Array(particleCount * 3);
+
+            for (let i = 0; i < particleCount * 3; i++) {
+                positions[i] = (Math.random() - 0.5) * 10;
+            }
+
+            geometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+
+            const material = new THREE.PointsMaterial({
+                color: 0x3b82f6,
+                size: 0.02,
+                transparent: true,
+                opacity: 0.6
+            });
+
+            particles = new THREE.Points(geometry, material);
+            scene.add(particles);
+
+            camera.position.z = 5;
+
+            // Líneas conectoras
+            const lineGeometry = new THREE.BufferGeometry();
+            const lineMaterial = new THREE.LineBasicMaterial({
+                color: 0x3b82f6,
+                transparent: true,
+                opacity: 0.1
+            });
+
+            const linePositions = [];
+            for (let i = 0; i < 20; i++) {
+                linePositions.push(
+                    (Math.random() - 0.5) * 8,
+                    (Math.random() - 0.5) * 8,
+                    (Math.random() - 0.5) * 8
+                );
+            }
+
+            lineGeometry.setAttribute('position', new THREE.BufferAttribute(new Float32Array(linePositions), 3));
+            const lines = new THREE.LineSegments(lineGeometry, lineMaterial);
+            scene.add(lines);
+
+            animate();
+        }
+
+        function animate() {
+            requestAnimationFrame(animate);
+
+            particles.rotation.x += 0.001;
+            particles.rotation.y += 0.002;
+
+            renderer.render(scene, camera);
+        }
+
+        // Responsive
+        window.addEventListener('resize', () => {
+            if (camera && renderer) {
+                camera.aspect = window.innerWidth / window.innerHeight;
+                camera.updateProjectionMatrix();
+                renderer.setSize(window.innerWidth, window.innerHeight);
+            }
+        });
+
+        // Smooth scrolling para los enlaces de navegación
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Inicializar Three.js cuando la página cargue
+        window.addEventListener('load', initThree);
+    </script>
+</body>
+</html>
